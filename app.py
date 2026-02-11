@@ -88,8 +88,10 @@ brew_recipe = {
 
 barista_rule = {
     ('A', '1'): {'bean': 'ETH', 'recipe': '50'},
-    ('A', '4'): {'bean': 'MCT', 'recipe': '60'},
+    ('A', '4'): {'bean': 'MCT', 'recipe': '50'},
     ('B', '2'): {'bean': 'ETH', 'recipe': '60'},
+    ('B', '5'): {'bean': 'MCT', 'recipe': '60'},
+    ('C', '3'): {'bean': 'ETH', 'recipe': '70'},
     ('C', '6'): {'bean': 'MCT', 'recipe': '70'}
 }
 
@@ -187,7 +189,9 @@ if st.session_state.orders:
             🌍 <b>เมล็ดกาแฟ:</b><br>
             {latest['bean']}<br><br>
             💧 <b>สูตรน้ำชง:</b><br>
-            {latest['recipe']}
+            {latest['recipe']}<br><br>
+            <b>⚙️ ระดับการบด: 27 Clicks</b><br>
+            <b>⚖️ อัตราส่วนผงกาแฟต่อน้ำ: 17 กรัม ต่อ 270 กรัม
         </div>
         """,
         unsafe_allow_html=True
