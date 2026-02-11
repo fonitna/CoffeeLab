@@ -100,7 +100,7 @@ barista_rule = {
 # ===============================
 st.markdown("""
 <div style="text-align:center;">
-    <h2>☕ Coffee Recommendation System</h2>
+    <h2>☕ KMUTNB Coffee Recommendation System</h2>
     <p style="color:#6f4e37;">
         ระบบแนะนำกาแฟสำหรับหน้าร้าน<br>
         Smart Order • Consistent Quality
